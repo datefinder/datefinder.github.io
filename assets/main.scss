@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+@import 'https://fonts.googleapis.com/css2?family=Open+Sans&display=swap';
+
+$base-font-family: 'Open Sans', sans-serif;
+$base-font-size:   20px;
+$base-font-weight: 500;
+$bold-font-weight: 800;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+    "base",
+    "home"
+;
